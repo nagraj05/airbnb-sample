@@ -1,7 +1,7 @@
 import Nav from "./nav"
 import MainContent from "./MainContent"
 import Card from "./Card"
-import Pic2  from './images/2.webp'
+import Pic2  from './images/2.jpg'
 import Pic9 from './images/9.jpg'
 import Pic3  from './images/3.jpg'
 import Pic4  from './images/4.jpg'
@@ -27,7 +27,7 @@ function App(){
     <Card img={Pic6} price= "$130" line="Social Media from Samantha Ruben"num='5.8'/>
     <Card img={Pic7} price= "$180" line="Fiction Writing from Peter Pan"num='5.5'/>
     <Card img={Pic8} price= "$220" line="Yoga from Zadie Smith"num='5.1'/>
-    <Card img={Pic9} price= "$250" line="Photography from Chris Lee"num='5.3'/>
+    <Card img={Pic9} price= "$250" line="Photography from Chris Lee"num="5.3"/>
     </div>
     </>
   )

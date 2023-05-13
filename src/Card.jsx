@@ -1,4 +1,5 @@
 import star from "./images/star.png"
+import  PropTypes  from "prop-types"
 
 export default function Card(props){
     return(
@@ -14,4 +15,11 @@ export default function Card(props){
             <p className="price"><span className="bold">From {props.price}</span>/person</p>
         </div>
     )
+}
+
+Card.propTypes={
+    img: PropTypes.string,
+    num: PropTypes.string,
+    line: PropTypes.string,
+    price: PropTypes.string
 }
