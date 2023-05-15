@@ -85,6 +85,7 @@ section{
   flex-wrap: wrap;
   /* display: flex; */
   /* flex-direction: column; */
+  position: relative;
   margin-bottom: 10px;
   border-radius: 5px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
@@ -97,6 +98,16 @@ section{
   height: 200px;
   object-fit: cover;
 
+}
+.card--badge {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  background-color: #fff;
+  padding: 5px 7px;
+  border-radius: 2px;
+  font-weight: bold;
+  z-index: 1;
 }
 
 .card-stats{
